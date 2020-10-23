@@ -1,0 +1,24 @@
+{
+  "name": "digital-ocean-hosting",
+  "version": "1.0.0",
+  "description": "test hosting nodejs, pm2 app on digital ocean",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mahmoudmheisen91/digitalOceanHosting.git"
+  },
+  "author": "mahmoudmheisen91 <mahmoudmheisen91@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "express": "^4.17.1",
+    "node": "^15.0.1",
+    "pm2": "^4.5.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "devDependencies": {
+    "prettier": "^2.1.2"
+  }
+}
